@@ -1,0 +1,16 @@
+.grid {
+  /*
+  I am doing a 9x9 grid, and each square will be 70x70 px.
+  Hence the grid height and width will be 9*70 = 630
+  */
+  height: 630px;
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*these are the aforementioned 70x70 squares*/
+.grid div {
+  height: 70px;
+  width: 70px;
+}
